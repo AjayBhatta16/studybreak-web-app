@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="init">
+        <div class="init-content">
+            <label for="size">Enter the size of your game: </label><br>
+            <input name="size" type="text"><br>
+            <label for="bombs">Enter the number of bombs: </label><br>
+            <input name="bombs" type="text"><br>
+            <span class="error"></span><br>
+            <button id="go">Go</button>
+        </div> 
+    </div>
+    <div class="game">
+        <h2 class="score"></h2>
+    </div>
+    <audio class="game-over" src="screaming-goat.mp3"></audio>
+    <audio class="game-won" src="notification.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

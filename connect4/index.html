@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Connect 4</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../favicon2.ico">
+    <script data-ad-client="ca-pub-1884887704642904" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+  <body>
+    <div class="start">
+        <h1>CONNECT 4</h1>
+        <div id="color-input">
+            <input type="color" id="p1" name="p1" value="#ff0000">
+            <label for="p1">Player 1</label>
+        </div>
+        <div id="color-input">
+            <input type="color" id="p2" name="p2" value="#ffaa00">
+            <label for="p2">Player 2</label>
+        </div>
+        <button id="start-button">GO</button>
+    </div>
+    <div class="game">
+        <h1 id="turn">Player 1's Turn</h1>
+        <div id="board">
+            <div class="board-column" id="col1">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col2">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col3">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col4">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col5">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col6">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+            <div class="board-column" id="col7">
+                <div class="circle row1"></div>
+                <div class="circle row2"></div>
+                <div class="circle row3"></div>
+                <div class="circle row4"></div>
+                <div class="circle row5"></div>
+                <div class="circle row6"></div>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="drop1">DROP</button>
+            <button id="drop2">DROP</button>
+            <button id="drop3">DROP</button>
+            <button id="drop4">DROP</button>
+            <button id="drop5">DROP</button>
+            <button id="drop6">DROP</button>
+            <button id="drop7">DROP</button>
+        </div>
+    </div>
+    <div class="end">
+        <h1 id="result"></h1>
+        <p>Refresh the page to play again</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

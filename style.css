@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
+html {
+  text-align: center;
+  background-color: rgb(40,85,158);
+}
+h1 {
+  text-align: center;
+  color: rgb(220,220,255);
+  font-family: 'Fredoka One',cursive;
+  font-size:  45px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  border: 2px solid #ffc600;
+}
+h6 {
+  text-align: center;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 25px;
+}
+a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+.card {
+  width: 250px;
+  border: 2px solid black;
+  align-content: center;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(100,100,200);
+  float: left;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(100,100,200);
+  margin: 75px 2% 15px;
+  padding: 5px 7%;
+  font-family: 'Rokkitt', sans-serif;
+}
+
+.footlink {
+  color: rgb(8, 38, 85);
+  text-decoration: underline;
+}
+
+.footlink:hover {
+  color: aqua;
+}

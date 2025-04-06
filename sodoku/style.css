@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+body {
+    background-color: #111;
+    align-content: center;
+    color: #0e0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.load {
+    cursor: pointer;
+}
+.puzzle {
+    width: 325px;
+    margin: auto;
+}
+input {
+    width: 25px;
+    height: 25px;
+    margin: 5px 2px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.row3, .row6 {
+    margin-bottom: 15px;
+}
+.row9 {
+    margin-bottom: 35px;
+}
+.row > input:nth-child(3), .row > input:nth-child(6) {
+    margin-right: 15px;
+}
+input {
+    border: 1px solid #0e0;
+    background-color: #111;
+    color: #0e0;
+    border-radius: 2px;
+}
+button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #00ee00;
+    background-color: #111;
+    border-radius: 20px;
+    color: #00ee00;
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+}
+button:hover {
+    transform: scale(1.05);
+}

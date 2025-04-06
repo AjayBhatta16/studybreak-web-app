@@ -1,0 +1,60 @@
+body {
+    background-color: #111;
+    align-content: center;
+}
+
+#score {
+    text-align: center;
+    color: #ddd;
+    margin-top: 0;
+}
+
+#game {
+    background-color: #ddd;
+    width: 94vmin;
+    height: 94vmin;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+#red {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    background-color: hsl(0, 100%, 25%);
+}
+
+#red:active, #red.active {
+    background-color: hsl(0,100%,50%);
+}
+
+#yellow {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    background-color: hsl(60, 100%, 25%);
+}
+
+#yellow:active, #yellow.active {
+    background-color: hsl(60,100%,50%);
+}
+
+#green {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    background-color: hsl(100, 100%, 25%);
+}
+
+#green:active, #green.active {
+    background-color: hsl(100, 100%, 50%);
+}
+
+#blue {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-color: hsl(200, 100%, 25%);
+}
+
+#blue:active, #blue.active {
+    background-color: hsl(200, 100%, 50%);
+}
