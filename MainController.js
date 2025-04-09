@@ -31,6 +31,11 @@ app.controller('MainController',['$scope',function($scope){
       url: "sudoku/index.html",
       img: "_screenshots/sudoku.png",
       name: "Sudoku Solver"
+    },
+    {
+      url: "https://speedtyping.studybreak.cc",
+      img: "_screenshots/speedtyping.png",
+      name: "Speed Typing"
     }
   ];
 }]);
