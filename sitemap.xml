@@ -1,0 +1,41 @@
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+    <url>
+        <loc>https://studybreak.cc/</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/connect4</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/minesweeper</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/simon</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/snakegame</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/sodoku</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://studybreak.cc/tictactoe</loc>
+        <lastmod>2025-04-06T22:02:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
